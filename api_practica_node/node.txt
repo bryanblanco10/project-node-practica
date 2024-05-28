@@ -1,0 +1,35 @@
+-npm init
+-npm install express --save
+-npm i body-parser -S
+-npm i nodemon -S -D
+-npm i -S mongoose-paginate-v2
+-npm i -S multer -> guardar archivos
+-npm i -S bcryptjs -> cifrar datos
+-npm i -S cors
+-npm i -S dotenv -> Crear variables de entorno 
+-npm i -S jsonwebtoken
+-npm i -S mongoose
+-npm i -S morgan
+-npm i -S helmet -> Validaciones de seguridad
+-npm i @babel/core @babel/cli @babel/node @babel/preset-env -D
+
+npm cache clean --force
+
+
+comnados mongo
+
+show dbs => List bds
+use "name db"
+show collections => ver todas la colecciones de la db
+db.roles.find() => ver los datos de una collections
+db.dropDatabase(); eliminar db
+
+
+librerias para validaciones
+
+express validations
+
+joi
+
+para deploy api => heroku, docker
+para deploy de bd => moongose atlas
